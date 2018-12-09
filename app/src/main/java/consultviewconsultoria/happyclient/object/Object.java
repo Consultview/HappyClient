@@ -1,4 +1,4 @@
-package consultviewconsultoria.happyclient;
+package consultviewconsultoria.happyclient.object;
 
 /**
  * Created by janiel on 08/12/2018.

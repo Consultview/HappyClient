@@ -1,7 +1,9 @@
-package consultviewconsultoria.happyclient;
+package consultviewconsultoria.happyclient.tela;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import consultviewconsultoria.happyclient.R;
 
 public class MainActivityVoto extends AppCompatActivity {
 
