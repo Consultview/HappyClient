@@ -44,6 +44,15 @@
 
         android:hint="Senha" />
 
+    <ImageView
+        android:id="@+id/imageViewExecelente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/excelente"
+        android:onClick="excelente"
+
+        />
+
 
 </LinearLayout>
 

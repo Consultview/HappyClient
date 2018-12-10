@@ -8,10 +8,16 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 import consultviewconsultoria.happyclient.R;
 
 public class MainActivityInicial extends AppCompatActivity {
+
+
+ImageView excelente;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +27,14 @@ public class MainActivityInicial extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
 
+        excelente = findViewById(R.id.imageViewExecelente);
+        excelente.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Toast.makeText(MainActivityInicial.this, "objeto clicado",Toast.LENGTH_SHORT).show();
+            }
+        });
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
