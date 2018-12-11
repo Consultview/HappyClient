@@ -39,33 +39,44 @@
                     android:id="@+id/imageViewExecelente"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/excelente" />
+                    app:srcCompat="@drawable/excelente"
+                    android:onClick="clickExcelente"
+                    />
 
 
                 <ImageView
                     android:id="@+id/imageViewBom"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/bom" />
+                    app:srcCompat="@drawable/bom"
+                    android:onClick="clickBom"
+                    />
 
                 <ImageView
                     android:id="@+id/imageViewRegular"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/regular" />
+                    app:srcCompat="@drawable/regular"
+                    android:onClick="clickRegular"
+
+                    />
 
                 <ImageView
                     android:id="@+id/imageViewRuim"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ruim" />
+                    app:srcCompat="@drawable/ruim"
+                    android:onClick="clickRuim"
+                    />
 
 
                 <ImageView
                     android:id="@+id/imageViewPessimo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/pessimo" />
+                    app:srcCompat="@drawable/pessimo"
+                    android:onClick="clickPessimo"
+                    />
 
             </LinearLayout>
 
