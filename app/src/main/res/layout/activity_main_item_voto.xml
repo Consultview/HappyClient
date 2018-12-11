@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textExcelentei"
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:paddingTop="50dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="23dp"
+
+            />
+
+        <TextView
+            android:id="@+id/textBomi"
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:paddingTop="50dp"
+            android:text="4"
+            android:textAlignment="center"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/textRegulari"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:paddingTop="50dp"
+            android:text="3"
+            android:textAlignment="center"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/textRuimi"
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:paddingTop="50dp"
+            android:text="2"
+            android:textAlignment="center"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/textPessimoi"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:paddingTop="50dp"
+            android:text="     1     "
+            android:textAlignment="center"
+            android:textSize="23dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

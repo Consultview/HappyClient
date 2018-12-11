@@ -6,9 +6,9 @@ import java.io.Serializable;
  * Created by janiel on 08/12/2018.
  */
 
-public class Object implements Serializable{
-
-
+public class Voto implements Serializable{
+    private static final long serialVersionUID = 1L;
+    public static final String VR_V = "VOTO";
 
     private long _idVoto;
     private int exelente;
@@ -17,7 +17,8 @@ public class Object implements Serializable{
     private int ruim;
     private int pessimo;
 
-    public Object() {
+    public Voto() {
+        _idVoto = 0;
 
     }
 
@@ -67,5 +68,18 @@ public class Object implements Serializable{
 
     public void setPessimo(int pessimo) {
         this.pessimo = pessimo;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Voto{" +
+                "_idVoto=" + _idVoto +
+        ", exele    nte=" + exelente +
+                ", bom=" + bom +
+                ", regular=" + regular +
+                ", ruim=" + ruim +
+                ", pessimo=" + pessimo +
+                '}';
     }
 }

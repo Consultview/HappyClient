@@ -7,21 +7,17 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="consultviewconsultoria.happyclient.tela.MainActivityInicial"
     tools:showIn="@layout/activity_main_inicial">
+
 <LinearLayout
     android:orientation="vertical"
     android:padding="34dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-
-    >
-
-
-
+    android:layout_height="match_parent">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Happy-Client !"
         android:textSize="34dp"
         android:padding="34dp"
         android:textColor="@android:color/black"
@@ -32,7 +28,6 @@
         android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:padding="24dp"
-
         android:hint="Email" />
 
     <EditText
@@ -40,19 +35,25 @@
         android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:padding="24dp"
-
-
         android:hint="Senha" />
 
     <ImageView
         android:id="@+id/imageViewExecelente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/excelente"
-
-
+        app:srcCompat="@drawable/excelente"/>
+<TextView
+    android:layout_width="match_parent"
+    android:text="_________"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.543,342 - votos"
+        android:textAlignment="center"
         />
-
 
 </LinearLayout>
 
