@@ -105,7 +105,7 @@ public class Conection extends SQLiteOpenHelper{
         }
     }
 
-
+/**
 
     //-----create database table user-----
     public boolean createTableUser() {
