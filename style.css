@@ -1,0 +1,169 @@
+/*
+Theme name: PLUGWELCOMETHEME
+Theme URI: localhost
+Author: Consultview consultoria
+Autor URI:
+Description: Tema para apresentação amigável
+Version: 1.0 
+Tags: tema
+
+*/
+
+*{margin: 0; padding: 0; list-style: none;}
+
+html{ width:100%; height:100%;}
+
+body{
+	background:linear-gradient(blue,white,blue);	
+	font-family:'Times New Roman',Times,serif;	
+	}
+
+.layout .item{
+	text-align: center;
+	font-weight:bold;
+	}
+
+.name{	font-size:15vmin;	
+		text-align:center;
+		border-radius:20px;
+		background-color: #fff;
+	}
+	
+.item{
+	float:left;
+	height:120px;
+	width:125px;
+	margin:60px;
+    padding-top: 70px;
+	}
+	
+/*------------CONTADORES----------*/
+
+#contador1, #contador2, #contador3, #contador4, #contador5{
+  font-size: 35px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 0px;    
+}
+
+/*-------------BOTÕES--------------*/
+
+.botao{	margin-bottom: 10px; border-radius: 5px;}
+			
+
+.amei{background-image:url("		http://localhost/HAPPYCLIENT/wp-content/uploads/2018/11/amei.svg");
+	float:left;
+	height:133px;
+	width:125px;
+	border-radius:10px;
+	background-color:yellow;
+	
+			}
+	
+.bom{background-image:url("http://localhost/HAPPYCLIENT/wp-content/uploads/2018/11/bom.svg");
+	float:left;
+	height:133px;
+	width:125px;
+	border-radius:10px;
+	background-color:yellow;	
+	
+	
+	
+	}
+
+.regular{background-image:url("http://localhost/HAPPYCLIENT/wp-content/uploads/2018/11/regular.svg");
+	float:left;
+	height:133px;
+	width:125px;
+	border-radius:10px;
+	background-color:yellow;	
+	}
+
+.ruim{background-image:url("http://localhost/HAPPYCLIENT/wp-content/uploads/2018/11/ruim.svg");
+	float:left;
+	height:133px;
+	width:125px;
+	border-radius:10px;
+	background-color:yellow;	
+	}
+
+.pessimo{background-image:url("http://localhost/HAPPYCLIENT/wp-content/uploads/2018/11/pessimo.svg");
+	float:left;
+	height:133px;
+	width:125px;
+	border-radius:10px;
+	background-color:yellow;	
+	
+	}
+	
+#cuadrito1{
+  width:50%;
+  margin:00px auto;
+  border-radius:10px;
+  font-weight: bold;
+  
+}
+
+	
+#cuadrito2{
+  width:50%;
+  margin:00px auto;
+  border-radius:10px;
+  font-weight: bold;
+  
+}
+
+	
+#cuadrito3{
+  width:50%;
+  margin:00px auto;
+  border-radius:10px;
+  font-weight: bold;
+  
+}
+
+	
+#cuadrito4{
+  width:50%;
+  margin:00px auto;
+  border-radius:10px;
+  font-weight: bold;
+  
+}
+
+	
+#cuadrito5{
+  width:50%;
+  margin:00px auto;
+  border-radius:10px;
+  font-weight: bold;
+  
+}
+
+
+
+
+#boton{
+  width:100px;
+  height:40px;
+  border:none;
+  font-weight: bold;
+  color: #DAA3A3;
+}
+
+#nuevo1, #nuevo2, #nuevo3, #nuevo4, #nuevo5{
+  border-radius:5px;
+  font-weight: bold;
+}
+
+/*-------------TELA PEQUENA--------------*/
+@media screen and(min-width: 300px){
+    .item {max-width: 100%; margin-right: -10px;}
+    .botao{margin: auto;}
+}
+/*-------------TELA MEDIA--------------*/
+
+/*-------------TELA GRANDE--------------*/
+@media screen and(max-width: 1300px){
+    .item {width: 100%; margin-left: 30px;}
+}
