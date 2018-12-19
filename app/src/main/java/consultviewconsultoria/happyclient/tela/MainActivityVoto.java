@@ -36,15 +36,9 @@ public class MainActivityVoto extends AppCompatActivity {
 
         v = new Voto();
         castById();
-
     }
 
-
-
-
-
     public void castById() {
-
         imgExcelente = findViewById( R.id.imageViewExecelente );
         imgBom = findViewById( R.id.imageViewBom );
         imgRegular = findViewById( R.id.imageViewRegular );
@@ -53,35 +47,33 @@ public class MainActivityVoto extends AppCompatActivity {
 
     }
 
-
     public void clickExcelente(View view) {
-
-        v.setExelente(+1);
-        Toast.makeText( this, "esse objeto foi clicado"+v.getExelente(), Toast.LENGTH_SHORT ).show();
+		//if(v.getExelente => 1 ){
+		
+        v.setExelente(1);
+        Toast.makeText( this, "EXCELENTE! \n obrigado! volte sempre!"+v.getExelente(), Toast.LENGTH_SHORT ).show();
 
     }
-
     public void clickBom(View view) {
-        v.setBom(+1);
-        Toast.makeText( this, "esse objeto foi clicado"+v.getBom(), Toast.LENGTH_SHORT ).show();
-
+        v.setBom(1);
+        Toast.makeText( this, "BOM! \n Obrigado"+v.getBom(), Toast.LENGTH_SHORT ).show();
 
     }
 
     public void clickRegular(View view) {
 
         v.setRegular(+1);
-        Toast.makeText( this, "esse objeto foi clicado"+v.getRegular(), Toast.LENGTH_SHORT ).show();
+        Toast.makeText( this, "REGULAR! \n "+v.getRegular(), Toast.LENGTH_SHORT ).show();
     }
 
     public void clickRuim(View view) {
         v.setRuim(+1);
-        Toast.makeText( this, "esse objeto foi clicado"+v.getRuim(), Toast.LENGTH_SHORT ).show();
+        Toast.makeText( this, "RUIM! \n vamos melhorar"+v.getRuim(), Toast.LENGTH_SHORT ).show();
     }
 
     public void clickPessimo(View view) {
         v.setPessimo(+1);
-        Toast.makeText( this, "esse objeto foi clicado"+v.getPessimo(), Toast.LENGTH_SHORT ).show();
+        Toast.makeText( this, "PESSIMO! \n obrigado, ainda temos muito que melhorar"+v.getPessimo(), Toast.LENGTH_SHORT ).show();
 
     }
 }

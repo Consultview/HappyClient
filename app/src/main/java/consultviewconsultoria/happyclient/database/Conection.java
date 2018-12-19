@@ -105,6 +105,24 @@ public class Conection extends SQLiteOpenHelper{
         }
     }
 
+
+ public boolean deleteTableVoto() {
+        openDB();
+        String deletTable = "DROP TABLE IF EXISTS " + TABELA_VOTO;
+        try {
+            db.execSQL( deletTable );
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        } finally {
+            db.close();
+        }
+    }
+
+
+
+
 /**
 
     //-----create database table user-----
