@@ -55,6 +55,7 @@ public class MainActivityVoto extends AppCompatActivity {
 
     }
     public void clickBom(View view) {
+
         v.setBom(1);
         Toast.makeText( this, "BOM! \n Obrigado"+v.getBom(), Toast.LENGTH_SHORT ).show();
 
