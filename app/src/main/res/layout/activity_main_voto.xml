@@ -10,185 +10,120 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textExcelentet"
             android:layout_width="match_parent"
-            android:layout_height="129dp"
+            android:layout_height="wrap_content"
             android:text="Seu voto é muito importante !"
-            android:paddingTop="50dp"
+            android:paddingTop="50sp"
             android:textAlignment="center"
-            android:textSize="23dp"
-
+            android:textSize="23sp"
             />
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
 
                 <ImageView
                     android:id="@+id/imageViewExecelente"
-                    android:layout_width="match_parent"
+                    android:layout_width="75dp"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/excelente"
                     android:onClick="clickExcelente"
-                    />
-
-
+                    app:srcCompat="@drawable/excelente" />
                 <ImageView
                     android:id="@+id/imageViewBom"
-                    android:layout_width="match_parent"
+                    android:layout_width="75dp"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/bom"
                     android:onClick="clickBom"
-                    />
-
+                    app:srcCompat="@drawable/bom" />
                 <ImageView
+
                     android:id="@+id/imageViewRegular"
-                    android:layout_width="match_parent"
+                    android:layout_width="75dp"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/regular"
                     android:onClick="clickRegular"
+                    app:srcCompat="@drawable/regular"
 
                     />
 
                 <ImageView
                     android:id="@+id/imageViewRuim"
-                    android:layout_width="match_parent"
+                    android:layout_width="75dp"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ruim"
                     android:onClick="clickRuim"
-                    />
+                    app:srcCompat="@drawable/ruim" />
 
 
                 <ImageView
                     android:id="@+id/imageViewPessimo"
-                    android:layout_width="match_parent"
+                    android:layout_width="75dp"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/pessimo"
                     android:onClick="clickPessimo"
-                    />
+                    app:srcCompat="@drawable/pessimo" />
 
             </LinearLayout>
 
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/textExcelente"
-                    android:layout_width="match_parent"
-                    android:layout_height="129dp"
-                    android:hint="excelente"
-                    android:paddingTop="50dp"
-                    android:textAlignment="center"
-                    android:textSize="23dp"
-
-                    />
-
-                <TextView
-                    android:id="@+id/textBom"
-                    android:layout_width="match_parent"
-                    android:layout_height="126dp"
-                    android:hint="bom"
-                    android:paddingTop="50dp"
-                    android:textAlignment="center"
-                    android:textSize="23dp" />
-
-                <TextView
-                    android:id="@+id/textRegular"
-                    android:layout_width="match_parent"
-                    android:layout_height="128dp"
-                    android:hint="regular"
-                    android:paddingTop="50dp"
-                    android:textAlignment="center"
-                    android:textSize="23dp" />
-
-                <TextView
-                    android:id="@+id/textRuim"
-                    android:layout_width="match_parent"
-                    android:layout_height="131dp"
-                    android:hint="ruim"
-                    android:paddingTop="50dp"
-                    android:textAlignment="center"
-                    android:textSize="23dp" />
-
-                <TextView
-                    android:id="@+id/textPessimo"
-                    android:layout_width="match_parent"
-                    android:layout_height="125dp"
-                    android:hint="pessimo"
-                    android:paddingTop="50dp"
-                    android:textAlignment="center"
-                    android:textSize="23dp" />
-
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/textExcelentev"
-                    android:layout_width="match_parent"
-                    android:layout_height="129dp"
-                    android:paddingTop="50dp"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
                     android:text="5"
                     android:textAlignment="center"
-                    android:textSize="23dp"
+                    android:textSize="50sp"
 
                     />
 
                 <TextView
                     android:id="@+id/textBomv"
-                    android:layout_width="match_parent"
-                    android:layout_height="126dp"
-                    android:paddingTop="50dp"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
                     android:text="4"
                     android:textAlignment="center"
-                    android:textSize="23dp" />
+                    android:textSize="50sp" />
 
                 <TextView
                     android:id="@+id/textRegularv"
-                    android:layout_width="match_parent"
-                    android:layout_height="128dp"
-                    android:paddingTop="50dp"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
                     android:text="3"
                     android:textAlignment="center"
-                    android:textSize="23dp" />
+                    android:textSize="50sp" />
 
                 <TextView
                     android:id="@+id/textRuimv"
-                    android:layout_width="match_parent"
-                    android:layout_height="131dp"
-                    android:paddingTop="50dp"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+
                     android:text="2"
                     android:textAlignment="center"
-                    android:textSize="23dp" />
+                    android:textSize="50sp" />
 
                 <TextView
                     android:id="@+id/textPessimov"
-                    android:layout_width="match_parent"
-                    android:layout_height="125dp"
-                    android:paddingTop="50dp"
-                    android:text="     1     "
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="1"
                     android:textAlignment="center"
-                    android:textSize="23dp" />
+                    android:textSize="50sp" />
 
             </LinearLayout>
+
         </LinearLayout>
     </LinearLayout>
 
