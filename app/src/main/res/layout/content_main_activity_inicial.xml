@@ -15,15 +15,22 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Happy-Client !"
-        android:textSize="34dp"
-        android:padding="34dp"
+        android:textAlignment="center"
         android:textColor="@android:color/black"
-        />
+        android:textSize="34dp" />
+
+
+    <ImageView
+        android:id="@+id/imageViewExecelente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/excelente" />
 
     <EditText
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
@@ -31,24 +38,29 @@
         android:hint="Email" />
 
     <EditText
+        android:id="@+id/senha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:padding="24dp"
         android:hint="Senha" />
 
-    <ImageView
-        android:id="@+id/imageViewExecelente"
+
+    <Button
+        android:id="@+id/entra"
+        android:text="ENTRA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/excelente"/>
-<TextView
+        />
+
+    <TextView
     android:layout_width="match_parent"
     android:text="_________"
     android:layout_height="wrap_content"
     android:textAlignment="center"
     />
     <TextView
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="5.543,342 - votos"
